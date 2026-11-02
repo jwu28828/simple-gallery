@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f3f0e8">
+<meta name="description" content="行走之间：将一段普通走廊转化为可持续更新的社区影像展。空间策展与展示方案。">
+<title>行走之间｜走廊影像展陈提案</title>
+<style>
+:root{--bg:#f3f0e8;--card:#fffdf9;--ink:#26342c;--muted:#777d75;--line:#d9ddd4;--green:#4d6e5d;--dark:#1e2923;--gold:#d4a765}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}button,input{font:inherit}button{cursor:pointer}img{display:block;max-width:100%}
+.container{width:min(1300px,calc(100% - 72px));margin:auto}.nav{position:sticky;top:0;background:#f3f0e8eF;z-index:50;backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav-inner{height:72px;display:flex;justify-content:space-between;align-items:center;gap:20px}
+.logo{font-weight:780;font-size:14px;letter-spacing:.08em;text-decoration:none;display:flex;align-items:center;gap:12px}.logo i{display:inline-flex;align-items:center;justify-content:center;font-style:normal;width:36px;height:36px;border-radius:50%;color:white;background:var(--dark)}
+.links{display:flex;align-items:center;gap:26px}.links a{text-decoration:none;font-size:12px;color:var(--muted)}.links a:hover{color:var(--ink)}
+.cta{border:1px solid var(--ink);border-radius:30px;padding:11px 19px;color:var(--ink);background:transparent;text-decoration:none;font-size:12px;transition:.2s}.cta:hover{color:white;background:var(--dark)}
+.hero{display:grid;grid-template-columns:1fr .9fr;gap:60px;align-items:center;padding:95px 0 90px;min-height:740px}
+.kicker{font-size:11px;letter-spacing:.25em;text-transform:uppercase;font-weight:700;color:var(--green);display:flex;align-items:center;gap:14px}.kicker:before{content:"";display:block;width:27px;height:1px;background:var(--green)}
+.hero h1{font-family:Georgia,"Songti SC",serif;font-size:clamp(65px,7.8vw,120px);letter-spacing:-.06em;font-weight:500;margin:25px 0 10px;line-height:1.11}
+.en{font-family:Georgia,serif;font-style:italic;color:var(--green);font-weight:400}.hero .en{display:block;font-size:clamp(27px,3vw,43px);margin:0 0 30px}
+.hero-p{font-size:16px;line-height:2.05;color:#616962;max-width:460px;margin:0 0 31px}.hero-bottom{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+.primary{display:inline-flex;align-items:center;justify-content:center;gap:12px;background:var(--dark);color:white;text-decoration:none;border:1px solid var(--dark);border-radius:40px;padding:15px 25px;font-size:13px;transition:.25s}.primary:hover{background:var(--green);border-color:var(--green)}
+.note{font-size:11px;line-height:1.9;color:var(--muted)}
+.hero-visual{position:relative;max-width:430px;justify-self:end;width:100%}
+.photo-shell{position:relative;overflow:hidden;border-radius:3px;background:#b29a73;aspect-ratio:864/1536}
+.photo-shell>img{width:100%;height:100%;object-fit:cover}
+.photo-shell:after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,transparent 55%,rgba(26,27,22,.2))}
+.photo-shell svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.hero-visual .corner{position:absolute;right:-20px;bottom:-24px;width:155px;height:155px;background:#dfe7da;z-index:-1}
+.visual-tag{position:absolute;left:-35px;bottom:41px;background:var(--card);padding:17px 20px;box-shadow:0 12px 40px #26342c20;display:grid;gap:5px;font-size:11px;letter-spacing:.05em}
+.visual-tag strong{font-size:15px;font-weight:650}
+.strip{border-top:1px solid var(--line);border-bottom:1px solid var(--line);display:grid;grid-template-columns:repeat(3,1fr)}
+.strip div{padding:30px 12px 30px 0;border-right:1px solid var(--line);margin-right:32px}.strip div:last-child{border-right:0;margin-right:0}
+.strip strong{display:block;font-family:Georgia,serif;font-size:32px;font-weight:400;color:var(--green);margin-bottom:8px}.strip span{font-size:12px;color:#6d756b}
+.section{padding:110px 0}.section.dark{background:var(--dark);color:#f5f4ed}.section-head{display:flex;justify-content:space-between;align-items:end;gap:40px;margin-bottom:50px}
+.eyebrow{font-size:11px;letter-spacing:.22em;color:var(--green);font-weight:700}.dark .eyebrow{color:#b6caba}
+h2{font-family:Georgia,"Songti SC",serif;font-size:clamp(39px,5vw,68px);letter-spacing:-.04em;font-weight:500;line-height:1.23;margin:16px 0 0}
+.section-head p{max-width:340px;font-size:13px;color:var(--muted);line-height:2;margin:0}.dark .section-head p{color:#aab5ab}
+.diagnosis{display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px}
+.diag{min-height:270px;padding:30px;background:var(--card);border:1px solid #e4e5dd}
+.diag .n{font:italic 29px Georgia,serif;color:#93a697}.diag h3{font-size:20px;font-weight:620;margin:28px 0 12px}.diag p{font-size:13px;line-height:1.95;color:#768076;margin:0}
+.quote{margin-top:25px;padding:25px 32px;border-left:2px solid #90aa98;background:#e9eee5;font-family:Georgia,"Songti SC",serif;font-size:22px;line-height:1.75}
+.concept{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
+.concept-big{font-family:Georgia,"Songti SC",serif;font-size:clamp(75px,10vw,135px);line-height:1.12;letter-spacing:-.08em;margin:18px 0}
+.concept p{font-size:14px;line-height:2.15;color:#b7c2b8;max-width:480px}
+.concept-outline{border:1px solid #738478;padding:36px;display:grid;gap:25px}
+.concept-outline .item{padding-bottom:22px;border-bottom:1px solid #4b5e50}.concept-outline .item:last-child{border-bottom:0;padding-bottom:0}
+.concept-outline .sub{font-size:11px;letter-spacing:.17em;color:#a4bbab}.concept-outline h3{font-family:Georgia,"Songti SC",serif;font-size:24px;font-weight:400;margin:10px 0}.concept-outline p{font-size:12px;margin:0;color:#b8c4b8}
+.viewer-grid{display:grid;grid-template-columns:minmax(300px,520px) 1fr;gap:76px;align-items:center}
+.viewer-frame{background:#d8c4a1;padding:24px 48px 26px;position:relative}
+.viewer-frame .photo-shell{max-width:385px;margin:auto;box-shadow:0 12px 26px #3e331a35}
+.viewer-label{position:absolute;top:24px;left:13px;writing-mode:vertical-rl;letter-spacing:.18em;color:#686350;font-size:10px}
+.gallery-overlay{transition:opacity .2s}
+.viewer-caption{display:flex;justify-content:space-between;margin:15px -20px 0;font-size:10px;color:#5b604f;gap:12px}
+.controls{padding:20px 0}.toggle-row{display:flex;gap:10px}.switch{border:1px solid #d4d9ce;background:transparent;color:#5c695e;border-radius:40px;padding:12px 22px;font-size:12px}.switch.active{color:white;background:var(--dark);border-color:var(--dark)}
+.range-wrap{margin:30px 0 15px}.range-wrap label{display:flex;justify-content:space-between;font-size:12px;color:#68766a;margin-bottom:17px}.range-wrap input{width:100%;accent-color:var(--green);cursor:pointer}
+.mock-highlights{display:grid;gap:0;border-top:1px solid var(--line)}
+.mock-highlights div{padding:17px 0;border-bottom:1px solid var(--line);display:flex;gap:17px;font-size:13px;line-height:1.6}.mock-highlights b{color:var(--green);min-width:25px}
+.mock-disclaimer{font-size:11px;line-height:1.9;color:var(--muted);margin-top:20px}
+.chapter-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.chapter{background:var(--card);overflow:hidden}
+.chapter img{width:100%;aspect-ratio:5/4;object-fit:cover;background:linear-gradient(135deg,#778b7b,#ccc8b4)}
+.chapter-detail{padding:28px}.chapter-detail .num{font:italic 23px Georgia,serif;color:#8eaa97}.chapter-detail h3{font-size:23px;font-weight:540;margin:15px 0}.chapter-detail p{font-size:13px;line-height:2;color:#717b72;min-height:76px;margin:0}.chapter-detail small{display:block;padding-top:20px;font-size:11px;color:#75847a;letter-spacing:.06em}
+.details-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:24px}
+.detail-hero{min-height:420px;background:#e6e7de;display:flex;align-items:center;justify-content:center;padding:45px;overflow:hidden}
+.mat{width:240px;height:320px;padding:19px;background:#f5f2e9;border:7px solid #353d36;box-shadow:16px 22px 30px #303f361c;transform:rotate(-6deg)}
+.mat img{width:100%;height:100%;object-fit:cover}
+.detail-list{display:grid;grid-template-rows:repeat(3,1fr);gap:13px}
+.detail-item{background:var(--card);padding:28px 30px;border:1px solid #e0e4da}
+.detail-item h3{font-size:16px;margin:0 0 9px}.detail-item p{margin:0;font-size:12px;color:var(--muted);line-height:1.9}
+.process{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.process div{padding:25px 23px;border:1px solid #5a6b5d;min-height:225px}.process b{font:italic 30px Georgia,serif;color:#a5bcae}.process h3{font-size:18px;font-weight:550;margin:20px 0 10px}.process p{font-size:12px;color:#b9c6ba;line-height:1.9;margin:0}
+.value-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.value-grid article{border-top:1px solid #a6b7a8;padding-top:25px}
+.value-grid article .num{font:30px Georgia,serif;color:#829c89}.value-grid h3{font-size:19px;font-weight:600;margin:16px 0 12px}.value-grid p{font-size:13px;color:#778078;line-height:2;max-width:310px}
+.approval{display:grid;grid-template-columns:1fr 1.2fr;gap:70px;border-top:1px solid var(--line);padding-top:36px}
+.approval p{font-size:14px;line-height:2;color:var(--muted)}.checks{display:grid;gap:14px}
+.check{display:flex;align-items:flex-start;gap:12px;padding:15px 0;border-bottom:1px solid var(--line);font-size:13px;color:#687469;line-height:1.7}
+.check span{flex:0 0 21px;display:grid;place-items:center;width:21px;height:21px;border:1px solid var(--green);border-radius:50%;font-size:12px;color:var(--green)}
+.end{background:#dfe8df;padding:85px 0;text-align:center}.end h2{font-size:clamp(36px,5vw,64px);max-width:880px;margin:12px auto 35px}.end p{color:#67776b;line-height:2;font-size:13px}
+.footer{display:flex;justify-content:space-between;align-items:center;gap:15px;padding:30px 0;font-size:11px;color:#7a817a;letter-spacing:.08em}
+@media(max-width:1040px){.hero{gap:32px}.hero-visual{max-width:330px}.viewer-grid{gap:30px}.viewer-frame{padding:18px 28px}.concept{gap:35px}}
+@media(max-width:760px){.container{width:min(100% - 36px,580px)}.nav-inner{height:62px}.links{display:none}.hero{grid-template-columns:1fr;padding:65px 0;min-height:unset}.hero h1{font-size:69px}.hero-visual{justify-self:center;margin-top:24px;max-width:340px}.visual-tag{left:-8px;bottom:18px;padding:12px}.hero-visual .corner{right:-10px}.strip{grid-template-columns:1fr 1fr 1fr}.strip div{padding:19px 4px;margin-right:10px}.strip strong{font-size:25px}.strip span{font-size:11px}.section{padding:70px 0}.section-head{display:block;margin-bottom:30px}.section-head p{margin-top:15px}.diagnosis,.chapter-grid,.value-grid{grid-template-columns:1fr}.diag{min-height:unset}.concept,.viewer-grid,.details-grid,.approval{grid-template-columns:1fr}.concept-big{font-size:78px}.viewer-grid{gap:22px}.viewer-frame{padding:17px 38px}.process{grid-template-columns:1fr 1fr}.process div{min-height:210px}.chapter img{aspect-ratio:16/9}.chapter-detail p{min-height:unset}.detail-hero{min-height:360px}.footer{font-size:10px}}
+@media(max-width:410px){.hero h1{font-size:59px}.hero-p{font-size:14px}.viewer-frame{padding:12px 26px}.process{grid-template-columns:1fr}.process div{min-height:unset}.toggle-row{flex-wrap:wrap}}
+@media print{.nav,.hero-bottom,.controls,.toggle-row{display:none!important}.section{padding:35px 0}.viewer-grid{grid-template-columns:1fr 1fr}.gallery-overlay{opacity:1!important}.chapter-grid,.diagnosis{grid-template-columns:repeat(3,1fr)}.dark{print-color-adjust:exact;-webkit-print-color-adjust:exact}}
+</style>
+</head>
+<body>
+<header class="nav"><div class="container nav-inner"><a class="logo" href="#top"><i>间</i> 行走之间 <span style="font-weight:400;color:#97a398">/ PROPOSAL</span></a><nav class="links"><a href="#analysis">空间洞察</a><a href="#vision">策展概念</a><a href="#preview">效果预览</a><a href="#execution">落地计划</a></nav><a class="cta" href="#approval">提案确认 ↗</a></div></header>
+<main>
+<section class="container hero" id="top">
+ <div><div class="kicker">SPACE EXHIBITION PROPOSAL · 2026</div><h1>行走<br>之间<span style="color:#8ba88e">.</span></h1><span class="en">Corridor Stories</span>
+ <p class="hero-p">把日常路过的一面白墙，变成一条有故事的影像长廊。让照片讲述在地风景、社区人物与真实发生的共创时刻。</p>
+ <div class="hero-bottom"><a class="primary" href="#preview">查看现场效果 <span>↗</span></a><span class="note">面向空间甲方的概念提案<br>依据现场照片制作 · 方案初稿</span></div></div>
+ <div class="hero-visual"><div class="photo-shell"><img class="site-photo" alt="现有暖色灯光的走廊与白墙现场"><svg class="gallery-overlay" viewBox="0 0 864 1536" preserveAspectRatio="none" aria-hidden="true"></svg></div><div class="visual-tag"><span>DESIGN DIRECTION</span><strong>让日常经过，值得驻足。</strong></div><div class="corner"></div></div>
+</section>
+<div class="container strip"><div><strong>01</strong><span>不改变原有通行动线</span></div><div><strong>02</strong><span>利用现有暖光与留白</span></div><div><strong>03</strong><span>可替换、可持续运营的展览</span></div></div>
+<section class="section container" id="analysis">
+ <div class="section-head"><div><span class="eyebrow">01 / SITE OBSERVATION</span><h2>我们看见的，<br>不只是一面白墙。</h2></div><p>从现场照片看，长墙完整、照明已有秩序，地面与踢脚线保持克制。空间并不缺装饰，它缺少一个与空间身份有关的叙事。</p></div>
+ <div class="diagnosis"><div class="diag"><span class="n">01</span><h3>一段被忽略的停留</h3><p>走廊目前承担到达与通行的功能，较长的连续墙面缺少可阅读的内容，人的体验多是快速通过。</p></div><div class="diag"><span class="n">02</span><h3>已经具备的优点</h3><p>顶部连续暖色灯带形成自然的视线引导；相对纯净的浅色墙面，适合承载小体量、低饱和的影像作品。</p></div><div class="diag"><span class="n">03</span><h3>不能牺牲的边界</h3><p>右侧现有方向导视、左下方疏散标识以及通行和清洁需求必须优先保留，不把装置延伸到地面。</p></div></div>
+ <div class="quote">核心判断：<strong>不是把墙面填满，而是让每一段留白都成为照片的一部分。</strong></div>
+</section>
+<section class="section dark" id="vision"><div class="container concept">
+ <div><span class="eyebrow">02 / CURATORIAL CONCEPT</span><div class="concept-big">一墙<br>一程。</div><p>展览名称建议为「行走之间」。借助每天必经的长廊，串联“看见地方—看见人—看见正在发生的事”，把一次性的装饰变成一份不断生长的社区影像档案。</p></div>
+ <div class="concept-outline"><div class="item"><span class="sub">CHAPTER 01 / PLACE</span><h3>在地 · 看见这里</h3><p>山水、街巷、建筑纹理、光影细节。首先建立空间与地方的联系。</p></div><div class="item"><span class="sub">CHAPTER 02 / PEOPLE</span><h3>相遇 · 看见彼此</h3><p>人物肖像、工作的片刻、交流与共居，让社区的温度被留下。</p></div><div class="item"><span class="sub">CHAPTER 03 / MOMENTS</span><h3>共创 · 看见发生</h3><p>工作坊、活动、共同完成的小事。为之后定期换展预留入口。</p></div></div>
+</div></section>
+<section class="section container" id="preview">
+ <div class="section-head"><div><span class="eyebrow">03 / VISUAL SIMULATION</span><h2>让方案回到<br>真实的墙面上。</h2></div><p>以下使用上传的现场照片进行概念叠加：以薄边框、暖白衬纸和有节奏的作品序列模拟空间效果。滑动即可比较原貌与方案。</p></div>
+ <div class="viewer-grid">
+  <div class="viewer-frame"><span class="viewer-label">SITE-BASED CONCEPT MOCKUP</span><div class="photo-shell"><img class="site-photo" alt="现场长廊空间照片"><svg class="gallery-overlay" viewBox="0 0 864 1536" preserveAspectRatio="none" aria-label="叠加在左侧墙面上的照片展示效果示意"></svg></div><div class="viewer-caption"><span>现场照片 + 概念展陈模拟</span><span>非实测施工效果图</span></div></div>
+  <div class="controls"><div class="eyebrow" style="margin-bottom:18px">BEFORE / AFTER</div><h3 style="font:normal 32px Georgia,'Songti SC',serif;margin:0 0 15px">看得见的改变，<br>尽可能少的打扰。</h3><p style="font-size:13px;line-height:2;color:var(--muted);max-width:420px">保持墙面浅色底色与原有灯光不动，仅植入轻质展览构件；让视觉焦点落在摄影作品而不是多余的装饰上。</p>
+   <div class="toggle-row"><button class="switch" data-level="0" type="button">原始现场</button><button class="switch active" data-level="100" type="button">展陈方案</button></div>
+   <div class="range-wrap"><label for="compare"><span>拖动查看变化</span><output id="value">100%</output></label><input type="range" id="compare" min="0" max="100" value="100" aria-label="展陈效果显示比例"></div>
+   <div class="mock-highlights"><div><b>01</b><span>多幅作品由小及大透视排列，保持一条统一的视觉中心线。</span></div><div><b>02</b><span>柔和低饱和照片适配现有暖光，薄框与留白降低走廊压迫感。</span></div><div><b>03</b><span>不遮挡既有导视与疏散标识，墙角、设备和通行面保持原状。</span></div></div>
+   <p class="mock-disclaimer">说明：照片和展框均为概念示意，画面透视不代替现场测量；照片内容与具体幅数待甲方确认。</p>
+  </div>
+ </div>
+</section>
+<section class="section container" style="padding-top:25px" id="chapters">
+ <div class="section-head"><div><span class="eyebrow">04 / CONTENT SYSTEM</span><h2>先有内容，<br>再决定挂几张。</h2></div><p>不推荐随机拼贴。首期做“有主题、有排序、有更新逻辑”的小型摄影展，逐步形成空间自己的视觉资产。</p></div>
+ <div class="chapter-grid">
+ <article class="chapter"><img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=850&q=75" loading="lazy" alt="山间风景示例照片"><div class="chapter-detail"><span class="num">01</span><h3>地方的肌理</h3><p>用一组与周边环境有关的景物影像开场，让初次到访的人迅速理解“我们身处何处”。</p><small>样张仅供风格参考 · 后续替换为在地拍摄</small></div></article>
+ <article class="chapter"><img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=850&q=75" loading="lazy" alt="共享空间示例照片"><div class="chapter-detail"><span class="num">02</span><h3>发生于此</h3><p>从社区人物、工作台到生活细节，记录真正生活和工作于此的人，而非摆拍式宣传。</p><small>样张仅供风格参考 · 人物肖像需授权</small></div></article>
+ <article class="chapter"><img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=850&q=75" loading="lazy" alt="自然环境示例照片"><div class="chapter-detail"><span class="num">03</span><h3>下一次相遇</h3><p>把活动与共创照片留给未来：让展览不是完结稿，而是会随着社区持续生长的公共记忆。</p><small>每季可更换一个小主题 · 形成持续内容</small></div></article>
+ </div>
+</section>
+<section class="section container" id="material">
+ <div class="section-head"><div><span class="eyebrow">05 / MATERIAL & DISPLAY</span><h2>做减法，<br>让作品成为主角。</h2></div><p>建议先做一幅实体试样，现场确认色温、反光、观看距离与固定方式，再批量制作。</p></div>
+ <div class="details-grid"><div class="detail-hero"><div class="mat"><img loading="lazy" alt="薄边框与衬纸的装裱风格参考" src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=650&q=80"></div></div><div class="detail-list">
+  <div class="detail-item"><h3>01 / 黑灰细边框 × 暖白卡纸</h3><p>优先使用薄边、低反光、统一系列的装裱方式；画幅与边框深浅以试装后的现场观感为准。</p></div>
+  <div class="detail-item"><h3>02 / 统一基线 × 疏密有节</h3><p>建议先以约 6–8 幅组成第一期，部分画幅作为组合单元；实际数量、间距及中心高度以净墙长和视线测量确定。</p></div>
+  <div class="detail-item"><h3>03 / 轻量可维护 × 不增加地面占用</h3><p>采用适合墙体条件且有承重保障的可维护挂装结构，避免凸出装置与落地展架；固定方案需施工方核查。</p></div>
+ </div></div>
+</section>
+<section class="section dark" id="execution"><div class="container">
+ <div class="section-head"><div><span class="eyebrow">06 / DELIVERY ROADMAP</span><h2>从一幅试样，<br>开始一个可生长的展览。</h2></div><p>低干预、可核价、便于迭代。先验证现场效果，再扩展为完整长廊。</p></div>
+ <div class="process"><div><b>01</b><h3>核对现场</h3><p>复核净墙长、可用墙高、行走宽度、墙体材料、既有设备和安全标识位置。</p></div><div><b>02</b><h3>确定内容</h3><p>筛出首期主题与照片，确认摄影作者授权、肖像权及统一色调、输出比例。</p></div><div><b>03</b><h3>一幅试装</h3><p>验证色温下的照片表现、抗反光、边框厚度、固定安全与清洁方式。</p></div><div><b>04</b><h3>安装与轮换</h3><p>错开使用高峰施工；保存照片档案和编号，确定换展负责人及更新频率。</p></div></div>
+</div></section>
+<section class="section container">
+ <div class="section-head"><div><span class="eyebrow">07 / VALUE FOR THE SPACE</span><h2>甲方得到的，<br>不止是一面更好看的墙。</h2></div></div>
+ <div class="value-grid">
+ <article><span class="num">A</span><h3>空间记忆点</h3><p>走廊从中性的过道变为有故事的场景，让客人离开房间后，也能感受到空间的身份和气质。</p></article>
+ <article><span class="num">B</span><h3>持续的内容资产</h3><p>照片展可与活动、人物和地方共创同步更新，逐渐形成真实、可累积的空间影像档案。</p></article>
+ <article><span class="num">C</span><h3>有边界的投入</h3><p>延用现有灯光与墙面；先核价基础装裱、打印、安装与维护，再决定完整实施规模，不盲目增加硬装。</p></article>
+ </div>
+</section>
+<section class="section container" id="approval" style="padding-top:0">
+ <div class="approval"><div><span class="eyebrow">08 / CLIENT DECISION</span><h2>建议确认<br>这四件事。</h2><p>本案为概念提案，不作为施工图或报价单。确认以下事项后，可进入尺寸深化、样张选片与正式报价阶段。</p><a class="primary" href="javascript:window.print()">打印 / 保存提案为 PDF ↗</a></div>
+  <div class="checks"><div class="check"><span>✓</span><div>是否认可「行走之间」作为走廊影像展的策展主题与整体视觉方向？</div></div>
+  <div class="check"><span>✓</span><div>首期采用空间与在地摄影内容，是否有既有照片可授权使用？</div></div>
+  <div class="check"><span>✓</span><div>是否同意先做 1 幅实体打样，再根据现场效果确认 6–8 幅的初步配置？</div></div>
+  <div class="check"><span>✓</span><div>是否可协调现场复尺、墙体固定条件与运营维护责任确认？</div></div></div></div>
+</section>
+<section class="end"><div class="container"><span class="eyebrow">A SMALL CHANGE, A LASTING STORY.</span><h2>每一次路过，<br>都可以遇见新的故事。</h2><p>行走之间 · Corridor Stories<br>空间影像展陈概念提案 · V1.0</p><a href="#top" class="cta">返回顶部 ↑</a></div></section>
+</main>
+<footer class="container footer"><span>SPACE EXHIBITION / CONCEPT PROPOSAL</span><span>基于现场照片 · 初步构想 · 非施工依据</span></footer>
+<script>
+const sourcePhoto="data:image/webp;base64,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";
+document.querySelectorAll(".site-photo").forEach(img=>img.src=sourcePhoto);
+const art=[
+ {p:"68,713 122,696 122,783 68,803",inner:"73,716 118,702 118,779 73,796",image:"https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=300&q=80",pos:[72,695,50,105]},
+ {p:"148,699 234,668 234,807 148,837",inner:"155,703 228,679 228,803 155,827",image:"https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=340&q=80",pos:[150,663,93,179]},
+ {p:"253,667 370,622 370,839 253,882",inner:"262,671 361,633 361,834 262,872",image:"https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=500&q=80",pos:[253,618,126,276]},
+ {p:"387,640 557,578 557,867 387,926",inner:"400,643 544,593 544,861 400,913",image:"https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=600&q=80",pos:[389,575,179,359]}
+];
+function makeOverlay(svg){
+ const ns="http://www.w3.org/2000/svg";
+ const mk=(name,attrs,parent)=>{const e=document.createElementNS(ns,name);Object.entries(attrs).forEach(([k,v])=>e.setAttribute(k,String(v)));parent.appendChild(e);return e};
+ const defs=mk("defs",{},svg);const filt=mk("filter",{id:"frame-shadow",x:"-30%",y:"-30%",width:"160%",height:"160%"},defs);
+ mk("feGaussianBlur",{stdDeviation:6},filt);
+ const layer=mk("g",{class:"overlay-layer"},svg);
+ art.forEach((a,i)=>{
+  const clip=mk("clipPath",{id:"clip-"+i},defs);mk("polygon",{points:a.inner},clip);
+  const [x,y,w,h]=a.pos;
+  const shadow=mk("polygon",{points:a.p,fill:"#291d13",opacity:".43",transform:"translate(7 12)",filter:"url(#frame-shadow)"},layer);
+  mk("polygon",{points:a.p,fill:"#262a27",stroke:"#1d2520","stroke-width":2},layer);
+  mk("polygon",{points:a.inner,fill:"#efece4"},layer);
+  mk("rect",{x:x,y:y,width:w,height:h,fill:["#879d8e","#9da896","#8da0ae","#97aa8d"][i],"clip-path":"url(#clip-"+i+")"},layer);
+  const image=mk("image",{href:a.image,x,y,width:w,height:h,preserveAspectRatio:"xMidYMid slice","clip-path":"url(#clip-"+i+")"},layer);
+  mk("polygon",{points:a.inner,fill:"none",stroke:"#eee9df","stroke-width":4,opacity:".92"},layer);
+ });
+}
+document.querySelectorAll("svg.gallery-overlay").forEach(makeOverlay);
+const range=document.getElementById("compare"),value=document.getElementById("value");
+function setReveal(v){v=Math.min(100,Math.max(0,Number(v)));document.querySelectorAll(".gallery-overlay").forEach(e=>e.style.clipPath="inset(0 "+(100-v)+"% 0 0)");range.value=v;value.textContent=v+"%";document.querySelectorAll(".switch").forEach(btn=>btn.classList.toggle("active",Number(btn.dataset.level)===v))}
+range.addEventListener("input",e=>setReveal(e.target.value));document.querySelectorAll(".switch").forEach(btn=>btn.addEventListener("click",()=>setReveal(btn.dataset.level)));setReveal(100);
+</script>
+</body></html>
